@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Pi Projects</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Pi Projects</string>
+    <string name="title_activity_new_post">New Project</string>
+    <string name="about_text_1">Welcome to the unofficial Pi Projects app!  This app was made for passionate Raspberry Pi users like me to share projects they have come up with or found online.  Please contribute to the community and thank you for loving your Pi!</string>
+    <string name="about_text_legal">Legal note: Raspberry Pi is a trademark of the Raspberry Pi Foundation. They own sole rights to the trademark.  This app is not officially supported by the Raspberry Pi Foundation.\n\nApp developed by Cody Rigney.</string>
+
+</resources>
