@@ -16,4 +16,5 @@ Todo List:
 * Fix some UI bugs
 * Add more features
 * Fix NullPointerException crash. TODO: Still need to add stack trace.
+* Implement limitation on posts so only XX can be listed at once.  This will require a "Previous XX" or "Next XX" probably in the action bar. The Web API already implements part of this using IDs.  I'll have to finish Web API implementation.
 * More coming
