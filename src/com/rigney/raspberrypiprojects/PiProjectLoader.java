@@ -69,7 +69,7 @@ public class PiProjectLoader extends AsyncTaskLoader<List<PiProject>> {
 	    InputStream is = null;
 	    BufferedInputStream buf = null;
 	    
-	    String getUrl = "http://piprojects.codyrigney.com/GetPostDataXml.php?LastPost=" + m_lastProjectId;
+	    String getUrl = "http://ec2-54-69-196-185.us-west-2.compute.amazonaws.com/piprojects/GetPostDataXml.php?LastPost=" + m_lastProjectId;
 	        
 	    String debugPage = "";
 	    

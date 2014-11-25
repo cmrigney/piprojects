@@ -85,7 +85,7 @@ public class NewPostActivity extends Activity {
     	InputStream is = null;
 	    BufferedInputStream buf = null;
     	
-    	String getUrl = "http://piprojects.codyrigney.com/RequestCaptchaId.php";
+    	String getUrl = "http://ec2-54-69-196-185.us-west-2.compute.amazonaws.com/piprojects/RequestCaptchaId.php";
     	try
     	{
 	    	URL url = new URL(getUrl);
@@ -131,7 +131,7 @@ public class NewPostActivity extends Activity {
 	        
 	        captchaId = Integer.valueOf(pageData);
 	        
-	        getUrl = "http://piprojects.codyrigney.com/RequestCaptcha.php?Captcha=" + captchaId;
+	        getUrl = "http://ec2-54-69-196-185.us-west-2.compute.amazonaws.com/piprojects/RequestCaptcha.php?Captcha=" + captchaId;
 	        
 	        url = new URL(getUrl);
 	        conn = (HttpURLConnection) url.openConnection();
@@ -307,7 +307,7 @@ public class NewPostActivity extends Activity {
     	
     	try
     	{
-    		String getUrl = "http://piprojects.codyrigney.com/PostProject.php?";
+    		String getUrl = "http://ec2-54-69-196-185.us-west-2.compute.amazonaws.com/piprojects/PostProject.php?";
         	getUrl += "title=" + URLEncoder.encode(title.getText().toString().trim(), "UTF-8");
         	getUrl += "&desc=" + URLEncoder.encode(description.getText().toString().trim(), "UTF-8");
         	getUrl += "&imgurl=" + URLEncoder.encode(projectImageUrl.getText().toString().trim(), "UTF-8");
